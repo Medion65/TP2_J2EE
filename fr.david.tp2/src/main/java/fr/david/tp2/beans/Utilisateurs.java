@@ -2,33 +2,37 @@ package fr.david.tp2.beans;
 
 public class Utilisateurs {
 
-    private Integer Id;
-    private String Nom;
-    private String Prenom;
-    private String Email;
+    private String nom;
+    private String prenom;
+    private String email;
 
-    public Integer getId() {
-        return Id;
+    public Utilisateurs() {
+        super();
     }
-    public void setId(Integer id) {
-        Id = id;
-    }
+
     public String getNom() {
-        return Nom;
+        return nom;
     }
+
     public void setNom(String nom) {
-        Nom = nom;
+        this.nom = nom;
     }
+
     public String getPrenom() {
-        return Prenom;
+        return prenom;
     }
+
     public void setPrenom(String prenom) {
-        Prenom = prenom;
+        this.prenom = prenom;
     }
+
     public String getEmail() {
-        return Email;
+        return email;
     }
+
     public void setEmail(String email) {
-        Email = email;
+        this.email = email;
     }
+
+
 }
